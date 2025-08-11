@@ -243,6 +243,7 @@ fixtures = [
     {"dt": "Client Script", "filters": [["module", "=", "Test Task"]]},
     {"dt": "Server Script", "filters": [["module", "=", "Test Task"]]},
     {"dt": "Workspace", "filters": [["module", "=", "Test Task"]]},
+    {"dt": "Web Form",     "filters": [["name", "in", ["ClientForm"]]]},
 ]
 
 
