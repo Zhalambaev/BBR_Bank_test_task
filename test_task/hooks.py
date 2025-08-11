@@ -240,10 +240,11 @@ app_license = "mit"
 fixtures = [
     "Custom Field",
     "Property Setter",
-    "Client Script",
-    "Server Script",
-    "Workspace",
+    {"dt": "Client Script", "filters": [["module", "=", "Test Task"]]},
+    {"dt": "Server Script", "filters": [["module", "=", "Test Task"]]},
+    {"dt": "Workspace", "filters": [["module", "=", "Test Task"]]},
 ]
+
 
 
 doc_events = {
