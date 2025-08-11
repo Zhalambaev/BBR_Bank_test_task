@@ -237,3 +237,9 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+
+doc_events = {
+    "Web Form": {
+        "before_save": "test_task.utils.fix_condition_json"
+    }
+}
